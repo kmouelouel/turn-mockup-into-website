@@ -1,0 +1,203 @@
+/********
+Date : January 2nd, 2017
+Auteur : kahina Mouelouel
+Version : 1.0
+ 
+***/
+
+
+/***Aspect général**/
+
+html, body, div {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #fff url(../img/fond-body.jpg) center top no-repeat;
+    font-family: Verdana, Arial, sans-serif;
+    color: #373737;
+    font-size: 12px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+}
+
+.font {
+    font-family: 'Lato', sans-serif;
+}
+
+.more {
+    display: block;
+    width: 80px; /*112px - 32 = 80*/
+    height: 25px; /*37-12*/
+    padding: 12px 0 0 32px;
+    margin: 0px;
+    background: url(../img/bouton-lire-suite.png) left top no-repeat;
+}
+
+.clear {
+    clear: both;
+}
+
+/** Titres**/
+h3 {
+    color: #1a8aaf;
+    font-size: 24px;
+    margin: 0 0 19px 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 0 auto 0 auto;
+    background: #fff url(../img/fond-body.jpg) center top no-repeat;
+}
+
+
+/***Header**/
+#header {
+    position: relative;
+    height: 121px;
+}
+
+#header h1 {
+    margin: 0px;
+    padding: 26px 0 0 0px;
+    color: #1a8aaf;
+}
+
+#header #nav {
+    position: absolute;
+    top: 44px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+
+#header #nav li {
+    list-style: none;
+    display: inline;
+    padding: 0px;
+    margin: 0 0 0 20px;
+}
+
+/***Accroche**/
+
+#accroche h2 {
+    margin: 68px 0 0 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+#accroche p {
+    text-align: center;
+    font-size: 21px;
+}
+
+#accroche #boite {
+    margin: 42px 0 0 406px;
+}
+
+
+/***Citation**/
+
+blockquote {
+    width: 696px; /*940 - 122 - 122 = 753 */
+    padding: 0 122px 0 122px;
+    margin: 0px;
+    background: #fff url(../img/blockquotes.jpg) 65px 10px no-repeat;
+}
+
+blockquote p {
+    text-align: justify;
+    font-family: georgia, serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/***Contenu gauche **/
+#side_gauche {
+    width: 460px;
+    float: left;
+    margin: 50px 80px 0 0;
+}
+
+#side_gauche .news .vignette {
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+#side_gauche .news {
+    margin: 0 0 20px 0;
+}
+
+#side_gauche p {
+    margin: 9px 0 8px 0;
+    padding: 0px;
+    line-height: 15px;
+}
+
+.description {
+    float: left;
+    width: 300px;
+}
+
+/***Contenu droit **/
+
+#side_droite {
+    width: 400px;
+    float: left;
+    margin: 50px 0 0 0;
+}
+
+#download {
+    height: 217px;
+    background: url(../img/box-blue.png) left top no-repeat;
+}
+
+#download  #bt_download {
+    margin: 15px 0 0 154px;
+}
+
+#download p {
+    color: #fff;
+    text-align: justify;
+    margin-top: 31px;
+    padding: 0 16px 0 16px;
+}
+
+.experienceList {
+    margin: auto 10px;
+}
+
+/*** Footer **/
+#footer {
+    height: 55px;/*80 - 25 = 55px*/
+    background-color: #373737;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+
